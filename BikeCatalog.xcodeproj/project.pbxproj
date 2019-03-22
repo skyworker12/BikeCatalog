@@ -7,23 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8EBD76322501A67FD1D55CEA /* Pods_BikeCatalog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3E8F6B44419DC63F8F8BD40 /* Pods_BikeCatalog.framework */; };
+		DD75692A2241A56300B4AF6F /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = DD7569292241A56300B4AF6F /* Podfile */; };
+		DD75692F2241B05E00B4AF6F /* CatalogListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD75692E2241B05E00B4AF6F /* CatalogListModel.swift */; };
+		DD7569312241B28600B4AF6F /* CatalogListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7569302241B28600B4AF6F /* CatalogListProtocols.swift */; };
+		DDC34D652241B98800802D01 /* CatalogListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC34D642241B98800802D01 /* CatalogListView.swift */; };
+		DDC34D672241BF0400802D01 /* CatalogListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC34D662241BF0400802D01 /* CatalogListTableViewCell.swift */; };
+		DDC34D6A2241C19400802D01 /* CatalogListVCExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC34D692241C19400802D01 /* CatalogListVCExtension.swift */; };
+		DDC34D6C2241C36100802D01 /* CatalogTableViewCellExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC34D6B2241C36100802D01 /* CatalogTableViewCellExtension.swift */; };
+		DDC34D6E2241C94A00802D01 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC34D6D2241C94A00802D01 /* StringExtension.swift */; };
+		DDC34D702241D16C00802D01 /* ErrorPopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC34D6F2241D16C00802D01 /* ErrorPopUpView.swift */; };
+		DDC34D722241D1CB00802D01 /* ErrorPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC34D712241D1CB00802D01 /* ErrorPopUpViewController.swift */; };
+		DDC34D742241D3D200802D01 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC34D732241D3D200802D01 /* UIViewExtension.swift */; };
+		DDC34D7A2242C8F800802D01 /* BikeInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC34D792242C8F800802D01 /* BikeInfoViewController.swift */; };
+		DDC34D7C2242C91300802D01 /* BikeInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC34D7B2242C91300802D01 /* BikeInfoView.swift */; };
+		DDC34D7E2242C93200802D01 /* BikeInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC34D7D2242C93200802D01 /* BikeInfoModel.swift */; };
+		DDC34D802242CD9100802D01 /* GetImageFromInternet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC34D7F2242CD9100802D01 /* GetImageFromInternet.swift */; };
+		DDC34D822242D58400802D01 /* BikeInfoStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC34D812242D58400802D01 /* BikeInfoStoryboard.storyboard */; };
+		DDC34D852242E09100802D01 /* BikeInfoVCExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC34D842242E09100802D01 /* BikeInfoVCExtension.swift */; };
 		DDD88F4622418B790020261C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD88F4522418B790020261C /* AppDelegate.swift */; };
-		DDD88F4822418B790020261C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD88F4722418B790020261C /* ViewController.swift */; };
+		DDD88F4822418B790020261C /* CatalogListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD88F4722418B790020261C /* CatalogListViewController.swift */; };
 		DDD88F4B22418B790020261C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDD88F4922418B790020261C /* Main.storyboard */; };
 		DDD88F4E22418B790020261C /* BikeCatalog.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DDD88F4C22418B790020261C /* BikeCatalog.xcdatamodeld */; };
 		DDD88F5022418B7A0020261C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDD88F4F22418B7A0020261C /* Assets.xcassets */; };
 		DDD88F5322418B7A0020261C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDD88F5122418B7A0020261C /* LaunchScreen.storyboard */; };
+		DDD88F6422418D110020261C /* BikeCatalogStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD88F6322418D110020261C /* BikeCatalogStruct.swift */; };
+		DDD88F6622418D9D0020261C /* GetDataFromInternet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD88F6522418D9D0020261C /* GetDataFromInternet.swift */; };
+		DDD88F6822418E420020261C /* ServerServicesProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD88F6722418E420020261C /* ServerServicesProtocols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6AA799AD5E4C6DD14B0AFB86 /* Pods-BikeCatalog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikeCatalog.release.xcconfig"; path = "Pods/Target Support Files/Pods-BikeCatalog/Pods-BikeCatalog.release.xcconfig"; sourceTree = "<group>"; };
+		DD7569292241A56300B4AF6F /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		DD75692E2241B05E00B4AF6F /* CatalogListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogListModel.swift; sourceTree = "<group>"; };
+		DD7569302241B28600B4AF6F /* CatalogListProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogListProtocols.swift; sourceTree = "<group>"; };
+		DDC34D642241B98800802D01 /* CatalogListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogListView.swift; sourceTree = "<group>"; };
+		DDC34D662241BF0400802D01 /* CatalogListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogListTableViewCell.swift; sourceTree = "<group>"; };
+		DDC34D692241C19400802D01 /* CatalogListVCExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogListVCExtension.swift; sourceTree = "<group>"; };
+		DDC34D6B2241C36100802D01 /* CatalogTableViewCellExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogTableViewCellExtension.swift; sourceTree = "<group>"; };
+		DDC34D6D2241C94A00802D01 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		DDC34D6F2241D16C00802D01 /* ErrorPopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorPopUpView.swift; sourceTree = "<group>"; };
+		DDC34D712241D1CB00802D01 /* ErrorPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorPopUpViewController.swift; sourceTree = "<group>"; };
+		DDC34D732241D3D200802D01 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		DDC34D792242C8F800802D01 /* BikeInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeInfoViewController.swift; sourceTree = "<group>"; };
+		DDC34D7B2242C91300802D01 /* BikeInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeInfoView.swift; sourceTree = "<group>"; };
+		DDC34D7D2242C93200802D01 /* BikeInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeInfoModel.swift; sourceTree = "<group>"; };
+		DDC34D7F2242CD9100802D01 /* GetImageFromInternet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetImageFromInternet.swift; sourceTree = "<group>"; };
+		DDC34D812242D58400802D01 /* BikeInfoStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BikeInfoStoryboard.storyboard; sourceTree = "<group>"; };
+		DDC34D842242E09100802D01 /* BikeInfoVCExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeInfoVCExtension.swift; sourceTree = "<group>"; };
 		DDD88F4222418B790020261C /* BikeCatalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BikeCatalog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDD88F4522418B790020261C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DDD88F4722418B790020261C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DDD88F4722418B790020261C /* CatalogListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogListViewController.swift; sourceTree = "<group>"; };
 		DDD88F4A22418B790020261C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DDD88F4D22418B790020261C /* BikeCatalog.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BikeCatalog.xcdatamodel; sourceTree = "<group>"; };
 		DDD88F4F22418B7A0020261C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDD88F5222418B7A0020261C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDD88F5422418B7A0020261C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDD88F6322418D110020261C /* BikeCatalogStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeCatalogStruct.swift; sourceTree = "<group>"; };
+		DDD88F6522418D9D0020261C /* GetDataFromInternet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDataFromInternet.swift; sourceTree = "<group>"; };
+		DDD88F6722418E420020261C /* ServerServicesProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerServicesProtocols.swift; sourceTree = "<group>"; };
+		E6A5C1BBD28EEDC81666BD41 /* Pods-BikeCatalog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikeCatalog.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BikeCatalog/Pods-BikeCatalog.debug.xcconfig"; sourceTree = "<group>"; };
+		F3E8F6B44419DC63F8F8BD40 /* Pods_BikeCatalog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BikeCatalog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +75,91 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EBD76322501A67FD1D55CEA /* Pods_BikeCatalog.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22D36BCAF564F36EBDE61748 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6A5C1BBD28EEDC81666BD41 /* Pods-BikeCatalog.debug.xcconfig */,
+				6AA799AD5E4C6DD14B0AFB86 /* Pods-BikeCatalog.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		411881C5D8BF796B51B14712 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3E8F6B44419DC63F8F8BD40 /* Pods_BikeCatalog.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDC34D682241C10300802D01 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DDC34D692241C19400802D01 /* CatalogListVCExtension.swift */,
+				DDC34D6B2241C36100802D01 /* CatalogTableViewCellExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DDC34D752242C88800802D01 /* BikeInfo */ = {
+			isa = PBXGroup;
+			children = (
+				DDC34D832242E05C00802D01 /* Extensions */,
+				DDC34D782242C8DB00802D01 /* Controller */,
+				DDC34D772242C8D100802D01 /* View */,
+				DDC34D762242C8C300802D01 /* Model */,
+			);
+			path = BikeInfo;
+			sourceTree = "<group>";
+		};
+		DDC34D762242C8C300802D01 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DDC34D7D2242C93200802D01 /* BikeInfoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DDC34D772242C8D100802D01 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DDC34D7B2242C91300802D01 /* BikeInfoView.swift */,
+				DDC34D812242D58400802D01 /* BikeInfoStoryboard.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DDC34D782242C8DB00802D01 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DDC34D792242C8F800802D01 /* BikeInfoViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DDC34D832242E05C00802D01 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DDC34D842242E09100802D01 /* BikeInfoVCExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		DDD88F3922418B780020261C = {
 			isa = PBXGroup;
 			children = (
+				DD7569292241A56300B4AF6F /* Podfile */,
 				DDD88F4422418B790020261C /* BikeCatalog */,
 				DDD88F4322418B790020261C /* Products */,
+				411881C5D8BF796B51B14712 /* Frameworks */,
+				22D36BCAF564F36EBDE61748 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +174,101 @@
 		DDD88F4422418B790020261C /* BikeCatalog */ = {
 			isa = PBXGroup;
 			children = (
+				DDD88F5B22418B930020261C /* ServerServices */,
+				DDD88F5A22418B840020261C /* Modules */,
+				DDD88F5D22418BE80020261C /* Protocols */,
+				DDD88F6222418C740020261C /* Entities */,
+				DDD88F5C22418BB10020261C /* Extensions */,
 				DDD88F4522418B790020261C /* AppDelegate.swift */,
-				DDD88F4722418B790020261C /* ViewController.swift */,
-				DDD88F4922418B790020261C /* Main.storyboard */,
 				DDD88F4F22418B7A0020261C /* Assets.xcassets */,
 				DDD88F5122418B7A0020261C /* LaunchScreen.storyboard */,
 				DDD88F5422418B7A0020261C /* Info.plist */,
 				DDD88F4C22418B790020261C /* BikeCatalog.xcdatamodeld */,
 			);
 			path = BikeCatalog;
+			sourceTree = "<group>";
+		};
+		DDD88F5A22418B840020261C /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				DDD88F5E22418C000020261C /* CatalogList */,
+				DDC34D752242C88800802D01 /* BikeInfo */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		DDD88F5B22418B930020261C /* ServerServices */ = {
+			isa = PBXGroup;
+			children = (
+				DDD88F6522418D9D0020261C /* GetDataFromInternet.swift */,
+				DDC34D7F2242CD9100802D01 /* GetImageFromInternet.swift */,
+			);
+			path = ServerServices;
+			sourceTree = "<group>";
+		};
+		DDD88F5C22418BB10020261C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DDC34D6D2241C94A00802D01 /* StringExtension.swift */,
+				DDC34D732241D3D200802D01 /* UIViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DDD88F5D22418BE80020261C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				DDD88F6722418E420020261C /* ServerServicesProtocols.swift */,
+				DD7569302241B28600B4AF6F /* CatalogListProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		DDD88F5E22418C000020261C /* CatalogList */ = {
+			isa = PBXGroup;
+			children = (
+				DDC34D682241C10300802D01 /* Extensions */,
+				DDD88F6122418C470020261C /* Model */,
+				DDD88F6022418C280020261C /* View */,
+				DDD88F5F22418C190020261C /* Controller */,
+			);
+			path = CatalogList;
+			sourceTree = "<group>";
+		};
+		DDD88F5F22418C190020261C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DDD88F4722418B790020261C /* CatalogListViewController.swift */,
+				DDC34D712241D1CB00802D01 /* ErrorPopUpViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DDD88F6022418C280020261C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DDC34D642241B98800802D01 /* CatalogListView.swift */,
+				DDC34D662241BF0400802D01 /* CatalogListTableViewCell.swift */,
+				DDD88F4922418B790020261C /* Main.storyboard */,
+				DDC34D6F2241D16C00802D01 /* ErrorPopUpView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DDD88F6122418C470020261C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DD75692E2241B05E00B4AF6F /* CatalogListModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DDD88F6222418C740020261C /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				DDD88F6322418D110020261C /* BikeCatalogStruct.swift */,
+			);
+			path = Entities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +278,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DDD88F5722418B7A0020261C /* Build configuration list for PBXNativeTarget "BikeCatalog" */;
 			buildPhases = (
+				1ED09CBFC7B2129F9AAEA545 /* [CP] Check Pods Manifest.lock */,
 				DDD88F3E22418B780020261C /* Sources */,
 				DDD88F3F22418B780020261C /* Frameworks */,
 				DDD88F4022418B780020261C /* Resources */,
+				7CE46C09CB46969E38376C5B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,20 +333,79 @@
 			files = (
 				DDD88F5322418B7A0020261C /* LaunchScreen.storyboard in Resources */,
 				DDD88F5022418B7A0020261C /* Assets.xcassets in Resources */,
+				DD75692A2241A56300B4AF6F /* Podfile in Resources */,
 				DDD88F4B22418B790020261C /* Main.storyboard in Resources */,
+				DDC34D822242D58400802D01 /* BikeInfoStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1ED09CBFC7B2129F9AAEA545 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BikeCatalog-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CE46C09CB46969E38376C5B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BikeCatalog/Pods-BikeCatalog-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BikeCatalog/Pods-BikeCatalog-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DDD88F3E22418B780020261C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDD88F4822418B790020261C /* ViewController.swift in Sources */,
+				DDC34D6A2241C19400802D01 /* CatalogListVCExtension.swift in Sources */,
+				DD75692F2241B05E00B4AF6F /* CatalogListModel.swift in Sources */,
+				DDC34D702241D16C00802D01 /* ErrorPopUpView.swift in Sources */,
+				DDC34D652241B98800802D01 /* CatalogListView.swift in Sources */,
+				DD7569312241B28600B4AF6F /* CatalogListProtocols.swift in Sources */,
+				DDC34D802242CD9100802D01 /* GetImageFromInternet.swift in Sources */,
+				DDC34D672241BF0400802D01 /* CatalogListTableViewCell.swift in Sources */,
+				DDC34D742241D3D200802D01 /* UIViewExtension.swift in Sources */,
+				DDD88F4822418B790020261C /* CatalogListViewController.swift in Sources */,
+				DDC34D7A2242C8F800802D01 /* BikeInfoViewController.swift in Sources */,
+				DDC34D7E2242C93200802D01 /* BikeInfoModel.swift in Sources */,
+				DDD88F6822418E420020261C /* ServerServicesProtocols.swift in Sources */,
+				DDD88F6422418D110020261C /* BikeCatalogStruct.swift in Sources */,
+				DDC34D722241D1CB00802D01 /* ErrorPopUpViewController.swift in Sources */,
+				DDD88F6622418D9D0020261C /* GetDataFromInternet.swift in Sources */,
+				DDC34D6C2241C36100802D01 /* CatalogTableViewCellExtension.swift in Sources */,
 				DDD88F4E22418B790020261C /* BikeCatalog.xcdatamodeld in Sources */,
+				DDC34D852242E09100802D01 /* BikeInfoVCExtension.swift in Sources */,
+				DDC34D6E2241C94A00802D01 /* StringExtension.swift in Sources */,
 				DDD88F4622418B790020261C /* AppDelegate.swift in Sources */,
+				DDC34D7C2242C91300802D01 /* BikeInfoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +549,7 @@
 		};
 		DDD88F5822418B7A0020261C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6A5C1BBD28EEDC81666BD41 /* Pods-BikeCatalog.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +568,7 @@
 		};
 		DDD88F5922418B7A0020261C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AA799AD5E4C6DD14B0AFB86 /* Pods-BikeCatalog.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
